@@ -1,0 +1,54 @@
+body {
+    padding: 25px;
+    justify-content: left;
+    align-items: left;
+}
+
+.form-group {
+    width: 200px;
+}
+
+td, th {
+    width: max-content;
+}
+
+nav {
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid rgb(191, 191, 191);
+    width: max-content;
+}
+
+.navoption {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.navoption:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.navoption:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+.navoption:hover {
+    background-color: rgba(222, 222, 222, 0.598);
+}
+
+.navoption.selected:hover {
+    background-color: rgba(222, 222, 222, 0.598);
+}
+
+.container {
+    margin: 0;
+    padding: 25px;
+    min-width: 30%;
+    width: max-content;
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 5px;
+}
+
+.navoption.selected {
+    background-color: rgba(212, 214, 240, 0.712);
+}
